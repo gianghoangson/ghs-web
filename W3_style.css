@@ -1,0 +1,61 @@
+h1 {
+    color: rebeccapurple;
+    font-size: 60;
+    margin: 16px;
+    border: 20px dotted black;
+    padding: 20px;
+    width: 400px;
+}
+
+h2 {
+    margin: 10px 20px 10px 30px;
+}
+
+h3 {
+    border: 5px solid green;
+}
+
+h4 {
+    padding: 5px 20px;
+}
+
+.style1 {
+    font-size = 50;
+    font-weight: bold;
+    color: pink;
+}
+
+#header {
+    color: yellow;
+}
+
+.dashboard{
+    display: flex;
+    /* gap: 16px; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    height: 300px;
+    background-color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard{
+        flex-direction: column;
+    }
+    :root{
+        font-size: 8px;
+    }
+}
+
+.card{
+    flex: 1 1 200px;
+    background-color: olivedrab;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(234, 9, 9, 0.1);
+    padding: 18px;
+    border: 5px dashed red;
+    margin: 8px;
+    font-size: 2rem;
+}

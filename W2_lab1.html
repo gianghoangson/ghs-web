@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHOPEE</title>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <header>
@@ -19,12 +20,12 @@
       <a href="#Products">Products</a>
       <a href="#Compare">Compare</a>
 
-      <a href="http://apple.com">apple</a>
+      <a href="http://apple.com" class="card">apple</a>
       <a href="http://samsung.com">samsung</a>
       <a href="http://xiaomi.com">xiaomi</a>
     </nav>
     <main>
-      <h1>Mua ngay ở SHOPee</h1>
+      <h1 id="header" class="article2" style="color:blue">Mua ngay ở SHOPee</h1>
       <a
         href="https://shopee.vn/?campaigntype=sembrand&gad_source=1&gad_campaignid=22403716237&gbraid=0AAAAADPpQE6MYdU2XZvzs3Bancr2NcUdw&gclid=CjwKCAjw1vXTBhB-EiwAEKr_k5SnJmWEPCCT3d7UJuTbVMP24IhfoDm2htHQpFpfRtGxYKa6mRCJYRoCFR4QAvD_BwE"
         >Shopee link</a
@@ -39,22 +40,27 @@
         <figcaption>Shopee logo</figcaption>
       </figure>
       <p><strong>SẢN PHẨM</strong></p>
-      <ul>
+      <ol>
         <li>dien thoai</li>
         <li>may tinh</li>
         <li>ban chai</li>
-      </ul>
+      </ol>
       <section id="HomePage"><b>This is SHOPEE</b></section>
-      <article>
+      <article class="article1">
         section và article trong HTML5 là các thẻ ngữ nghĩa dùng để phân chia bố
         cục trang web. Thẻ section dùng để gom nhóm các nội dung có chung một
         chủ đề, trong khi thẻ article dùng cho một khối nội dung hoàn chỉnh và
         độc lập có thể đem đi chia sẻ ở nơi khác.
+        <br />
+        <span>chiu chiu</span>
       </article>
-      <section id="Products"><b>Here are products of us</b></section>
+      <section id="Products">
+        <b>Here are products of us</b>
+        <p>admaksdnanfkd fsdfkam;kdma;m ;mamandsajbdadbadadmas djnwjadas</p>
+      </section>
       <section id="Compare">
         <table>
-          <caption>
+          <caption class="card">
             Bảng
           </caption>
           <thead>
@@ -85,31 +91,34 @@
       </section>
       <section id="Contact">
         <label for="ten">Full Name</label>
-        <input id="ten" name="ten" type="text" required>
-        <br>
+        <input id="ten" name="ten" type="text" required />
+        <br />
         <label for="tuoi">Age</label>
-        <input id="tuoi" name="tuoi" type="number" min="1">
-        <br>
+        <input id="tuoi" name="tuoi" type="number" min="1" />
+        <br />
         <label for="email">Email</label>
-        <input id="email" name="email" type="email">
-        <br>
+        <input id="email" name="email" type="email" />
+        <br />
         <label for="gioi tinh">Gender</label>
-        <input id="gioi tinh" name="gioi tinh" type="radio" value="nam"> Male
-        <input id="gioi tinh" name="gioi tinh" type="radio" value="nu"> Female
-        <br>
+        <input id="gioi tinh" name="gioi tinh" type="radio" value="nam" /> Male
+        <input id="gioi tinh" name="gioi tinh" type="radio" value="nu" /> Female
+        <br />
         <label for="thanh pho">City</label>
         <select name="thanh pho" id="thanh pho">
-            <option value="hanoi">Ha Noi</option>
-            <option value="HCM">TP. Ho CHi Minh</option>
+          <option value="hanoi">Ha Noi</option>
+          <option value="HCM">TP. Ho CHi Minh</option>
         </select>
-        <br>
+        <br />
         <textarea name="ghi chu">Text...</textarea>
-        <br>
+        <br />
         <button type="submit">Submit</button>
       </section>
+      <h2>margin test</h2>
+      <h3>border test</h3>
+      <h4>padding test</h4>
     </main>
 
-    <footer>
+    <footer class="article2">
       <strong>TAM BIET QUY KHACH</strong>
     </footer>
   </body>
